@@ -12,13 +12,14 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class FullscreenActivity extends AppCompatActivity implements LocationListener {
+import in.co.ankitarora.abovesealevel.Common.Base.BaseActivity;
+
+public class FullscreenActivity extends BaseActivity implements LocationListener {
     private static final int MY_PERMISSIONS_REQUEST_READ_CONTACTS = 123;
     TextView coordinates;
     LocationManager lm;
