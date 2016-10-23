@@ -6,5 +6,16 @@
         android:enabled="true"
         android:title="@string/contact_developer"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_camera"
+        android:enabled="true"
+        android:title="@string/camera_activity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:title="@string/home"
+        app:showAsAction="never"/>
+
 
 </menu>

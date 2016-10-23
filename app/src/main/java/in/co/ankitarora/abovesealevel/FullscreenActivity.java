@@ -2,19 +2,16 @@ package in.co.ankitarora.abovesealevel;
 
 import android.Manifest;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.widget.TextView;
 
 import in.co.ankitarora.abovesealevel.Common.Base.BaseActivity;
@@ -25,20 +22,7 @@ public class FullscreenActivity extends BaseActivity implements LocationListener
     LocationManager lm;
     TextView locationData;
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.action_contact) ;
-        {
-            Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                    "mailto","ankit992@live.in", null));
-            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "APP Feature/Issue");
-            emailIntent.putExtra(Intent.EXTRA_TEXT, "Explain the requirement here: ");
-            startActivity(Intent.createChooser(emailIntent, "Send email..."));
 
-        }
-        return super.onOptionsItemSelected(item);
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
