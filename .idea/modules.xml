@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AboveSeaLevel.iml" filepath="$PROJECT_DIR$/AboveSeaLevel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/above-sea-level.iml" filepath="$PROJECT_DIR$/above-sea-level.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
